@@ -1,0 +1,21 @@
+{
+  "name": "quote-slackbot",
+  "version": "1.0.0",
+  "description": "A slack bot that says random famous quotes.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stephane-ruhlmann",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "superagent": "^1.6.1",
+    "xml2js": "^0.4.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
